@@ -1,23 +1,41 @@
 # Weather-App
 
-:cloud: Weather App is a simple weather app that shows the weather of your current location. It uses the [OpenWeatherMap API](https://openweathermap.org/api) to get the weather data.
+# Weather App 🌦️🌡️
 
-## About the project
-This project was made for personal use. I wanted to learn how to use the OpenWeatherMap API and how to use the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to get the user's location. 
+A simple Python script that fetches the current weather for a given city using the OpenWeatherMap API.
 
-## How to use
-1. Clone the repository
-2. Run `npm install` to install the dependencies
-3. Run `npm run dev` to start the development server
-4. Go to `localhost:1234` in your browser
+## Requirements
+- Python 3.x
+- Requests library
+- json library
+- OpenWeatherMap API key
+
+## Installation
+1. Clone or download the repository
+2. Install the required libraries by running `pip install -r requirements.txt`
+3. Replace `YOUR_API_KEY_HERE` with your own API key in the `weather.py` file
+4. Run the script by running `python weather.py`
+
+## Usage
+To get the weather for a specific city, just replace `city = "New York"` in the `weather.py` file with the desired city.
+
+## Examples
+The temperature in New York is 15.00 degrees Celsius.
+The weather is currently: clear sky
+
+
+## Contribution
+
+Feel free to contribute to this project by creating a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Python version
-This is my first project in Python. I'm still learning the language, so I'm sure there are a lot of things that can be improved. If you have any suggestions, please let me know!
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
-- [OpenWeatherMap](https://openweathermap.org/)
-- [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+
+* OpenWeatherMap API
+
+Made with ❤️ by Filip Dimitrijevic
+
 
