@@ -1,3 +1,7 @@
+# Description: This script uses the OpenWeatherMap API to get the current weather in a city.
+# Author: Filip Dimitrijevic
+# Date: 2023-01-26
+
 import requests
 import json
 
