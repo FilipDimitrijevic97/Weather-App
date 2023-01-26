@@ -3,7 +3,7 @@ import json
 
 # Define the API endpoint and API key
 endpoint = "http://api.openweathermap.org/data/2.5/weather"
-api_key = "9226ed0b9dd0791ba0039533eae0c888"
+api_key = "ddbba3d862dbe306814917b723fb6177"
 
 # Define the city you want to get the weather for
 city = "New York"
